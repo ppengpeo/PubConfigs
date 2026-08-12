@@ -13,7 +13,7 @@
 	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
 	<Option Name="ActionButton2" Enabled="True" />	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="False" />	<!-- Enables or disables the dismiss button. -->
-	<Option Name="SnoozeButton" Enabled="True" /> <!-- Enabling this option will always enable action button and dismiss button -->
+	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long | alarm -->
 	<Option Name="Action1" Value="shutdown /r /t 600" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Option Name="Action2" Value="shutdown /r /t 10800" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
