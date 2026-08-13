@@ -15,8 +15,8 @@
 	<Option Name="DismissButton" Enabled="False" />	<!-- Enables or disables the dismiss button. -->
 	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long | alarm -->
-	<Option Name="Action1" Value="shutdown /r /t 600" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
-	<Option Name="Action2" Value="shutdown /r /t 10800" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
+	<Option Name="Action1" Value="file:///C:/Windows/Temp/toastnotif/10minrestart.bat" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
+	<Option Name="Action2" Value="file:///C:/Windows/Temp/toastnotif/3hourrestart.bat" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Text Option="MultiLanguageSupport" Enabled="False" /> <!-- Enable support for multiple languages. If set to True, the toast notification will look for the users language culture within the config file -->
 	<en-US> <!-- Default fallback language. This language will be used if MultiLanguageSupport is set to False or if no matching language is found -->
         <Text Name="PendingRebootUptimeText">Your computer is required to restart due to having exceeded the maximum allowed uptime.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
