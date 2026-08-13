@@ -22,7 +22,7 @@
         <Text Name="PendingRebootUptimeText">Your computer is required to restart due to having exceeded the maximum allowed uptime.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
         <Text Name="WeeklyMessageTitle">Weekly reminder</Text> <!-- Title text for weekly message notifications -->
         <Text Name="WeeklyMessageBody">imab.dk have published new applications to the Company Portal. Go check them out.&#10;&#10;Click 'Open' to launch Company Portal or 'Learn More' to go to our Intranet.</Text> <!-- Body text for weekly message notifications -->
-        <Text Name="ActionButton1">Restart in 5 minutes</Text>  <!-- Text on the ActionButton if enabled -->
+        <Text Name="ActionButton1">Restart in 10 minutes</Text>  <!-- Text on the ActionButton if enabled -->
 		<Text Name="ActionButton2">Restart in 3 hours</Text>  <!-- Text on the ActionButton if enabled -->
         <Text Name="DismissButton">Dismiss</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Snooze</Text> <!-- Text on the SnoozeButton if enabled -->
